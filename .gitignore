@@ -1,0 +1,87 @@
+# ======================
+# Implementation Plan
+# ======================
+implementation_plan.md
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ======================
+# Virtual Environments
+# ======================
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ======================
+# ML / Models
+# ======================
+models/
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+*.h5
+tokenizer_vocab/
+*.model
+
+# ======================
+# GPU / CUDA
+# ======================
+*.cubin
+*.fatbin
+*.ptx
+*.o
+*.obj
+__triton_cache__/
+.triton/
+
+# ======================
+# Jupyter Notebooks
+# ======================
+.ipynb_checkpoints/
+*.nbconvert.*
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ======================
+# Testing / Coverage
+# ======================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ======================
+# Logs / Misc
+# ======================
+*.log
+.cache/
+wandb/
+runs/

@@ -1,0 +1,8 @@
+# Phase 1: Tokenizers
+tiktoken>=0.6.0
+tokenizers>=0.15.0
+sentencepiece>=0.2.0
+rich>=13.7.0
+
+# Dev
+pytest>=8.0.0
